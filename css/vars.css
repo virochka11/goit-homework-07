@@ -1,0 +1,16 @@
+:root {
+  --social-active: #31d0aa;
+  --icon-customer-color: #8e8f99;
+  --page-color: #ffffff;
+  --main-text: #2e2f42;
+  --light-text: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --main-color: #434455;
+  --action-color: #404bbf;
+  --cornflower: #e7e9fc;
+  --description-size: 16px;
+  --description-height: 24px;
+  --general-lh: 1.5;
+  --ls-small: 0.02em;
+  --ls-big: 0.04em;
+}

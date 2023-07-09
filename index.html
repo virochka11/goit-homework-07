@@ -14,12 +14,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href="./css/vars.css"/>
-    <link rel="stylesheet" href="./css/mobile.css"/>
-    <link rel="stylesheet" href="./css/tablet.css"/>
-    <link rel="stylesheet" href="./css/dekstop.css">
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/vars.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/decstop.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!-- Profile header -->
   <body>
@@ -40,7 +40,13 @@
               <a class="nav-link link" href="">Contacts</a>
             </li>
           </ul>
+          <button class="header-btn" type="button" data-menu-open>
+            <svg class="header-icon" width="32" height="22">
+              <use href="./images/sprite.svg#icon-menu-hamb"></use>
+            </svg>
+          </button>
         </nav>
+
         <address class="address">
           <ul class="contacts-list list">
             <li class="contact-item">
@@ -67,11 +73,11 @@
       </section>
 
       <section class="social">
-        <div class="container-social container">
+        <div class="container">
           <h2 class="visually-hidden">Features</h2>
 
           <ul class="solution-list list">
-            <li class="item icon-strategy">
+            <li class="item">
               <div class="icon-container">
                 <svg class="solution-icon" width="64" height="64">
                   <use href="./images/sprite2.svg#icon-antenna"></use>
@@ -84,7 +90,7 @@
               </p>
             </li>
 
-            <li class="item icon-punctuality">
+            <li class="item">
               <div class="icon-container">
                 <svg class="solution-icon" width="64" height="64">
                   <use href="./images/sprite2.svg#icon-clock"></use>
@@ -97,7 +103,7 @@
               </p>
             </li>
 
-            <li class="item icon-deligence">
+            <li class="item">
               <div class="icon-container">
                 <svg class="solution-icon" width="64" height="64">
                   <use href="./images/sprite2.svg#icon-diagram"></use>
@@ -109,7 +115,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="item icon-technologies">
+            <li class="item">
               <div class="icon-container">
                 <svg class="solution-icon" width="64" height="64">
                   <use href="./images/sprite2.svg#icon-astronaut"></use>
@@ -336,7 +342,7 @@
         </div>
       </section>
       <!-- Custumers -->
-      <section class="cusutumers-section container">
+      <!-- <section class="cusutumers-section container">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="custumers-list list">
@@ -384,12 +390,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-wrapper">
-        <div class="container-footer container">
+      <div class="footer-wrapper container">
+        <div class="container-footer">
           <a href="./index.html" class="logo footer-link"
             >WEB<span class="light">Studio</span></a
           >
@@ -548,7 +554,41 @@
         </form>
       </div>
     </div>
+    <div class="menu is-close" data-menu>
+      <button class="menu-close" type="button" data-menu-close>
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/sprite.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <nav class="menu-nav">
+        <ul class="menu-list list">
+          <li class="menu-item">
+            <a class="menu-link nav-active" href="./index.html">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="menu-address">
+        <ul class="menu-contacts list">
+          <li class="menu-contact">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="menu-contact">
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
