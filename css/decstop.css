@@ -67,6 +67,7 @@ padding-right: 0;
 
 }
 
+
 .item-team {
   width: calc((100% - 72px) / 4);
 }
@@ -90,6 +91,7 @@ padding-right: 0;
   /* FOOTER */
 .footer-form {
 justify-content: flex-start;
+
 }
 
 .footer-wrapper {
