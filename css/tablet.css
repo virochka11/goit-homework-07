@@ -75,7 +75,7 @@ padding-right: 108px;
 
   /* FOOTER */
   .footer-form {
-    padding: 108px;
+
     width: auto;
   }
   .footer-link {
@@ -94,6 +94,9 @@ padding-right: 108px;
   }
   .subscribe-label {
     width: 264px;
+  }
+  .footer-wrapper {
+    padding: 0 108px;
   }
   
 }

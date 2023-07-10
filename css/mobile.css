@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
- 
+  outline: solid red;
 }
 .button {
   margin: auto;
@@ -400,7 +400,7 @@
     gap: 72px 24px;
     justify-content: center;
     text-align: center;
-    padding: 0 108px;
+    
 }
 
 .footer {
@@ -448,14 +448,13 @@
   display: flex;
   justify-content: center;
   gap: 16px;
-  justify-content: space-between;
 }
 
 .footer-form {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  width: 100%px;
+  width: 100%;
   justify-content: center;
 }
 
