@@ -61,6 +61,21 @@ padding-right: 108px;
     flex-direction: row;
     align-items: baseline;
 }
-
+.cusutumers-section {
+  padding: 96px 0;
+}
+.custumers-container {
+  padding: 0 108px;
 
 }
+.custumers-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
+
+  /* FOOTER */
+  .footer-subscribe-mail {
+  width: 264px;
+  }
+}
+
+
