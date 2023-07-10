@@ -60,6 +60,7 @@ padding-right: 108px;
 .footer-wrapper {
     flex-direction: row;
     align-items: baseline;
+    justify-content: flex-start;
 }
 .cusutumers-section {
   padding: 96px 0;
@@ -73,9 +74,27 @@ padding-right: 108px;
   }
 
   /* FOOTER */
+  .footer-form {
+    width: auto;
+  }
+  .footer-link {
+    text-align: left;
+  }
+
+  .footer-subscribe {
+    align-items: flex-start;
+  }
+
   .footer-subscribe-mail {
   width: 264px;
   }
+  .section-subtitle {
+    text-align: left;
+  }
+  .subscribe-label {
+    width: 264px;
+  }
+  
 }
 
 

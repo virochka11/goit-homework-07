@@ -83,17 +83,29 @@ padding-right: 0;
     .custumers-item {
     width: calc((100% - 24px * 5) / 6);
   }
+  .custumers-container {
+  padding: 0;
+
+}
   /* FOOTER */
 .footer-form {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  width: 100%;
+justify-content: flex-start;
 }
+
 .footer-wrapper {
  display: flex;
  flex-wrap: nowrap;
+ padding: 0;
+ gap: 0;
 
+}
+.footer-social {
+    margin-left: 120px;
+}
+
+
+.footer-subscribe {
+    margin-left: 80px;
 }
 
 }

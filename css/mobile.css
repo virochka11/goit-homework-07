@@ -27,7 +27,6 @@
 /* HEADER */
 
 .page-header {
-background-image: ;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -165,6 +164,9 @@ background-image: ;
   width: 24px;
   height: 24px;
 }
+.menu-address {
+  font-style: normal;
+}
 
 /* HERO */
 .solution-title {
@@ -198,6 +200,7 @@ background-image: ;
   background-size: cover;
   max-width: 1140px;
   color: #ffffff;
+
 }
 
 /* SOLUTION */
@@ -294,6 +297,7 @@ background-image: ;
 }
 .custumers-item {
   width: calc((100% - 16px) / 2);
+  height: 88px;
 }
 
 .custumers-link {
@@ -301,8 +305,8 @@ background-image: ;
   justify-content: center;
   align-items: center;
 
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
 
   border-radius: 4px;
   border: 1px solid #8e8f99;
@@ -335,6 +339,7 @@ background-image: ;
     gap: 72px 24px;
     justify-content: center;
     text-align: center;
+    padding: 0 108px;
 }
 
 .footer {
@@ -354,6 +359,7 @@ background-image: ;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 .footer-link {
   display: inline-block;
@@ -373,7 +379,9 @@ background-image: ;
   margin-bottom: 16px;
       display: flex;
     justify-content: center;
+   
 }
+
 
 .social-list {
   display: flex;
@@ -385,7 +393,7 @@ background-image: ;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  width: 100%;
+  width: 398px;
   justify-content: center;
 }
 
@@ -396,8 +404,11 @@ background-image: ;
     align-items: center;
     width: 100%;
 }
+.subscribe-label {
+  width: 100%;
+}
 .footer-subscribe-mail {
-  width: 398px;
+  width: 100%;
   height: 40px;
   line-height: var(--general-lh);
   letter-spacing: var(--ls-big);
